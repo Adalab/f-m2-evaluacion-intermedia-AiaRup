@@ -6,6 +6,7 @@ const numGuessesText = document.querySelector('.guess');
 const btn = document.querySelector('.submitBtn');
 const hintText = document.querySelector('.hint');
 
+// variables to work with
 let winningNumber = 0;
 let numberOfGuesses = 0;
 
@@ -19,13 +20,11 @@ const checkGuess = event => {
   // take input value
   const value = parseInt(input.value);
   console.log(`The user entered the number: ${value}`);
-  // check if the number is correct
+  // check if the number is correct, too height or too low
   if (winningNumber === value) {
     hintText.innerHTML = '¡HAS GANADO, CAMPEONA!';
-    // numberOfGuesses++;
   } else if (value > winningNumber) {
     hintText.innerHTML = 'demasiado alto';
-    // numberOfGuesses++;
   } else {
     hintText.innerHTML = 'demasiado bajo';
   }
