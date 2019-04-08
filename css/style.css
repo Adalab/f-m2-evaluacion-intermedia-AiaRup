@@ -1,5 +1,55 @@
 body {
   margin: 0;
   height: 100vh;
-  background-color: grey;
+  background-color: lightgray;
+  text-align: center;
+  padding: 80px 30px;
+  position: relative;
+}
+
+.guess {
+  position: fixed;
+  right: 40px;
+  top: 80px;
+  color: red;
+  font-weight: bold;
+  font-size: 70px;
+  margin: 0;
+}
+
+.title {
+  font-size: 50px;
+  margin: 0;
+}
+
+.label {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+#number {
+  padding: 10px 20px;
+}
+
+.submitBtn {
+  margin: 50px 0;
+  width: 210px;
+  padding: 5px;
+  text-transform: capitalize;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hint {
+  border: 1px solid blue;
+  color: blue;
+  padding: 10px 0;
+}
+
+.italic {
+  text-transform: capitalize;
+  font-style: italic;
 }
