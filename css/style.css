@@ -32,8 +32,8 @@ body {
   padding: 10px 20px;
 }
 
-.submitBtn {
-  margin: 50px 0;
+.btn {
+  margin: 50px 10px;
   width: 210px;
   padding: 5px;
   text-transform: capitalize;
@@ -41,6 +41,7 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  background-color: #fefefe;
 }
 
 .hint {
