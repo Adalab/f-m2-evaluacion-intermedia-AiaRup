@@ -54,3 +54,7 @@ body {
   text-transform: capitalize;
   font-style: italic;
 }
+
+.hidden {
+  display: none;
+}
